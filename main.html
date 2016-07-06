@@ -1,8 +1,18 @@
 <head>
 </head>
 <body>
-  <canvas id='world' width='600' height='600' style="display: block; margin: 0 auto 0 auto; border-radius: 5px; border: 1px solid black;"></canvas>
-  <button id="save-btn">save</button>
+  <input id='entity-name' text='text'>
+  <canvas id='world' width='640' height='640' style="display: block; margin: 0 auto 0 auto; border-radius: 5px; border: 1px solid black; cursor: pointer"></canvas>
+  <!-- <button id="save-btn">save</button>
+  <form>
+    <input type='radio' id='agent-radio'>
+    <input type='radio' id='object-radio'>
+  </form> -->
+  <!-- for drawing, erasing, etc. -->
+  <div id='state-btn-hldr'></div>
+  <!-- for frames -->
+  <form id='frame-hldr'></form>
   <img id='canvas-img'>
   <script src="canvas.js"></script>
+  <script src="upload.js"></script>
 </body>
